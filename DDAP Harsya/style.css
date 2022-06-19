@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Mohave', sans-serif;
+}
+
+#navbarSupportedContent {
+    font-weight: 500;
+    font-size: x-large;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
+    margin-left: 8%;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+.banner {
+    background: url("https://drive.google.com/uc?id=1Px5aNDBMIBSw9lzW7Rm4ku5M4oY9yqnB") 
+        no-repeat center center;
+    background-size: cover;
+    padding-top: 18%;
+    padding-bottom: 6%;
+    color: white;
+}
+
+.tulisanbanner1 {
+    color :white;
+    padding-right: 45%;
+    text-align: left;
+    font-size: 180%;
+    text-indent: 50px;
+    text-shadow: 2px 2px 5px #28362B;
+    font-weight: 800;
+}
+
+.tulisanbanner2 {
+    color :white;
+    padding-right: 45%;
+    text-align: left;
+    font-size: 180%;
+    text-indent: 50px;
+    text-shadow: 2px 2px 5px #28362B;
+    font-weight: 800;
+}
+
+.perusahaan {
+    font-weight: 800;
+    color: #28362B;
+}
+
+.brand {
+    font-weight: 800;
+    color: #28362B;
+}
+
+.layanan {
+    font-weight: 800;
+    color: #28362B;
+}
+
+.perus {
+    color: #ffffff;
+}
+
+.cardd {
+    background: rgb(43,68,48);
+    background: linear-gradient(100deg, rgba(43,68,48,1) 0%, rgba(65,125,75,1) 100%);
+    box-shadow: 4px 4px 6px black;
+}
+
+.tim img {
+    width: 250px;
+    border: 2px solid #c9c9c9;
+    box-shadow: 2px 2px 4px black;
+}
+
+.banner2 {
+    background: url("https://drive.google.com/uc?id=1mJrvOXHnnoLTMZ5fS3cjhnXq9MifL76l") 
+        no-repeat center center;
+    background-size: cover;
+    padding-top: 22%;
+    padding-bottom: 8%;
+    color: white;
+}
+
+.tulisanbanner1yg2 {
+    color :white;
+    padding-left: 50%;
+    padding-right: 0%;
+    text-align: left;
+    font-size: 180%;
+    text-indent: 50px;
+    text-shadow: 2px 2px 5px #28362B;
+    font-weight: 800;
+}
+
+.tulisanbanner2yg2 {
+    color :white;
+    padding-left: 50%;
+    padding-right: 0%;
+    text-align: left;
+    font-size: 180%;
+    text-indent: 50px;
+    text-shadow: 2px 2px 5px #28362B;
+    font-weight: 800;
+}
+
+.card {
+    background: rgb(43,68,48);
+    background: linear-gradient(100deg, rgba(43,68,48,1) 0%, rgba(65,125,75,1) 100%);
+    box-shadow: 4px 4px 6px black;
+}
+
+.card-title {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.buttonse {
+    background-color: #b5b5b5; /* Green */
+    border: none;
+    color: #057b28;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.buttonse {
+    transition-duration: 0.4s;
+}
+  
+.buttonse:hover {
+    background-color: #ffffff; /* Green */
+    color: #057b28;
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #28362B;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
